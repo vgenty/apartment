@@ -1,0 +1,5 @@
+#!/bin/bash
+
+USER=$1
+REPO=$2
+git clone http://github.com/$USER/$REPO.git
