@@ -1,6 +1,13 @@
 #!/bin/bash
 
-USER=$2
+if [ $2 == 'ddavis' ]; then
+    USER='dougphy'
+elif [ $2 == 'vgenty']; then
+    USER='vgenty'
+else
+    echo 'ddavis or vgenty'
+fi
+
 REPO=$3
 
 if [ $1 == '-h' ]; then
